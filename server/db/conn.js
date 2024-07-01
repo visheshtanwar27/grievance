@@ -6,6 +6,7 @@ mongoose.connect(dburl)
     .then(async () => {
         console.info("Connected to MongoDB");
     })
+    
     .catch((error) => {
         console.error("Error connecting to MongoDB:", error);
     });
